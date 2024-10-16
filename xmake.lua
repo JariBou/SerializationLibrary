@@ -9,7 +9,7 @@ target("SerializationLibraryGitHub")
     add_includedirs("src")
     
     add_files("src/SerializationLib/*.cpp")
-    add_headerfiles("include/SerializationLib/*.h")
+    add_headerfiles("include/(SerializationLib/*.h)")
 
     add_defines("SERIAL_COMPILE")
 
