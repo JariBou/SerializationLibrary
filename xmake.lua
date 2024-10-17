@@ -15,6 +15,16 @@ target("SerializationLibraryGitHub")
     add_defines("SERIAL_COMPILE")
 
 
+target("SerializationTests")
+    set_kind("binary")
+
+    add_includedirs("include")
+    add_includedirs("src")
+    
+    add_deps("SerializationLibraryGitHub")
+    add_files("tests/*.cpp")
+
+
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io

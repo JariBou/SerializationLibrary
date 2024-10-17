@@ -19,6 +19,8 @@ namespace Serialization
 		void Deserialize(Serialization::Deserializer* deserializer) {
 			OnDeserialize(deserializer);
 		}
+
+		virtual std::string GetUID() const = 0;
 	
 	protected:
 		virtual void OnSerialize(Serialization::Serializer* serializer) const = 0;
