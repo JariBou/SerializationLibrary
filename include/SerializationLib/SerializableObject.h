@@ -6,8 +6,8 @@
 
 namespace Serialization
 {
-	class Serializer;
-	class Deserializer;
+	//class Serializer;
+	//class Deserializer;
 
 	class SERIAL_API SerializableObject
 	{
