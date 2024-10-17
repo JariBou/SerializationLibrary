@@ -1,4 +1,7 @@
 #include <SerializationLib/Serializer.h>
+
+#include <SerializationLib/SerializableObject.h>
+
 #include <iostream>
 #include <string>
 

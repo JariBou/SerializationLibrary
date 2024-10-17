@@ -1,6 +1,8 @@
 #include <SerializationLib/Deserializer.h>
 #include <iostream>
 
+#include <SerializationLib/SerializableObject.h>
+
 
 namespace Serialization {
 

@@ -1,6 +1,6 @@
 #pragma once
-//#include "Serializer.h"
-//#include "Deserializer.h"
+#include "Serializer.h"
+#include "Deserializer.h"
 #include "SerializationLibrary.h"
 //TODO check if maybe a forward declaration wouldn't be better
 

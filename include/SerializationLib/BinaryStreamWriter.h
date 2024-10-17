@@ -1,8 +1,6 @@
 #pragma once
 #include "SerializationLibrary.h"
 
-#include "SerializableObject.h"
-
 #include <filesystem>
 #include <fstream>
 #include <map>
@@ -11,7 +9,7 @@
 namespace Serialization 
 {
 
-	//class SerializableObject;
+	class SerializableObject;
 
 	class SERIAL_API BinaryStreamWriter
 	{
