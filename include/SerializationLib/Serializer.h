@@ -14,13 +14,6 @@ namespace Serialization
 			Serializer(const std::filesystem::path& path);
 
 			bool WriteSerializableObject(const Serialization::SerializableObject& obj) override;
-
-			template<typename T>
-			static void SerializeObject(T& object, const std::filesystem::path& path = "") {
-				//This is trash
-				BinaryStreamWriter streamWriter(path != "" ? path : "ayaya.dat");
-				streamWriter.WriteObject(object);
-			}
 	};
 
 }
