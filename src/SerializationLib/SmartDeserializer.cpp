@@ -14,6 +14,7 @@ namespace Serialization
     }
     bool SmartDeserializer::ReadSerializableObjectWithKey(Serialization::SerializableObject& targetObj, std::string key)
     {
+        SetStreamPosition(0);
         while (IsStreamGood()) {
 			std::string readKey;
 			ReadString(readKey);

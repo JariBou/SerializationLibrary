@@ -46,7 +46,7 @@ int main()
 	Serialization::SmartDeserializer sd("tests.dat");
 
 	SerializableTest dst1 ("", -1);
-	sd.ReadSerializableObjectWithKey(dst1, "player_that_loves");
+	sd.ReadSerializableObjectWithKey(dst1, "player_that_doesnt_exist");
 
 	std::cout << "Read Name => " << dst1.m_name << std::endl;
 	std::cout << "Read Age => " << dst1.m_age << std::endl;
